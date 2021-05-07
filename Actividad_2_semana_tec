@@ -1,0 +1,769 @@
+Last login: Fri May  7 09:00:50 on console
+luiszepeda@MacBook-Air-de-Luis ~ % cd 
+luiszepeda@MacBook-Air-de-Luis ~ % ls
+Applications	Downloads	Movies		Public		snake.py
+Desktop		Library		Music		get-pip.py
+Documents	MEGAsync	Pictures	pacman.py
+luiszepeda@MacBook-Air-de-Luis ~ % cd Desktop 
+luiszepeda@MacBook-Air-de-Luis Desktop % cd Semestre\ 4
+luiszepeda@MacBook-Air-de-Luis Semestre 4 % cd Semana\ Tec\ 2
+luiszepeda@MacBook-Air-de-Luis Semana Tec 2 % cd Actividadad2S1001S 
+luiszepeda@MacBook-Air-de-Luis Actividadad2S1001S % git status
+En la rama luiszepedagg
+Archivos sin seguimiento:
+  (usa "git add <archivo>..." para incluirlo a lo que se será confirmado)
+	snake.py
+
+no hay nada agregado al commit pero hay archivos sin seguimiento presentes (usa "git add" para hacerles seguimiento)
+luiszepeda@MacBook-Air-de-Luis Actividadad2S1001S % vim snake.py 
+luiszepeda@MacBook-Air-de-Luis Actividadad2S1001S % python3 snake.py
+Snake: 2
+Snake: 3
+Snake: 4
+Snake: 5
+Snake: 6
+Snake: 7
+Snake: 8
+Snake: 9
+Snake: 10
+Snake: 11
+Snake: 12
+Snake: 13
+Snake: 14
+Snake: 15
+Snake: 16
+Snake: 17
+Snake: 18
+Snake: 19
+Snake: 20
+Snake: 21
+Snake: 22
+Snake: 23
+Snake: 24
+Snake: 25
+Snake: 26
+Snake: 27
+Snake: 28
+Snake: 29
+Snake: 30
+Snake: 31
+Snake: 32
+Snake: 33
+Snake: 34
+luiszepeda@MacBook-Air-de-Luis Actividadad2S1001S % vim snake.py    
+luiszepeda@MacBook-Air-de-Luis Actividadad2S1001S % python3 snake.py
+luiszepeda@MacBook-Air-de-Luis Actividadad2S1001S % vim snake.py    
+luiszepeda@MacBook-Air-de-Luis Actividadad2S1001S % python3 snake.py
+luiszepeda@MacBook-Air-de-Luis Actividadad2S1001S % vim snake.py    
+luiszepeda@MacBook-Air-de-Luis Actividadad2S1001S % python3 snake.py
+Traceback (most recent call last):
+  File "/Users/luiszepeda/Desktop/Semestre 4/Semana Tec 2/Actividadad2S1001S/snake.py", line 70, in <module>
+    move()
+  File "/Users/luiszepeda/Desktop/Semestre 4/Semana Tec 2/Actividadad2S1001S/snake.py", line 57, in move
+    square(body.x, body.y, 9, turtle.pencolor() )     
+NameError: name 'turtle' is not defined
+luiszepeda@MacBook-Air-de-Luis Actividadad2S1001S % vim snake.py    
+luiszepeda@MacBook-Air-de-Luis Actividadad2S1001S % python3 snake.py
+Snake: 2
+luiszepeda@MacBook-Air-de-Luis Actividadad2S1001S % python3 snake.py
+luiszepeda@MacBook-Air-de-Luis Actividadad2S1001S % vim snake.py    
+luiszepeda@MacBook-Air-de-Luis Actividadad2S1001S % python3 snake.py
+Traceback (most recent call last):
+  File "/Users/luiszepeda/Desktop/Semestre 4/Semana Tec 2/Actividadad2S1001S/snake.py", line 70, in <module>
+    move()
+  File "/Users/luiszepeda/Desktop/Semestre 4/Semana Tec 2/Actividadad2S1001S/snake.py", line 57, in move
+    square(body.x, body.y, 9, pencolor('brown') )     
+  File "/usr/local/lib/python3.9/site-packages/freegames/utils.py", line 67, in square
+    turtle.color(name)
+  File "<string>", line 8, in color
+  File "/usr/local/Cellar/python@3.9/3.9.5/Frameworks/Python.framework/Versions/3.9/lib/python3.9/turtle.py", line 2217, in color
+    pcolor = self._colorstr(pcolor)
+  File "/usr/local/Cellar/python@3.9/3.9.5/Frameworks/Python.framework/Versions/3.9/lib/python3.9/turtle.py", line 2697, in _colorstr
+    return self.screen._colorstr(args)
+  File "/usr/local/Cellar/python@3.9/3.9.5/Frameworks/Python.framework/Versions/3.9/lib/python3.9/turtle.py", line 1153, in _colorstr
+    if len(color) == 1:
+TypeError: object of type 'NoneType' has no len()
+luiszepeda@MacBook-Air-de-Luis Actividadad2S1001S % vim snake.py    
+luiszepeda@MacBook-Air-de-Luis Actividadad2S1001S % python3 snake.py
+Traceback (most recent call last):
+  File "/Users/luiszepeda/Desktop/Semestre 4/Semana Tec 2/Actividadad2S1001S/snake.py", line 70, in <module>
+    move()
+  File "/Users/luiszepeda/Desktop/Semestre 4/Semana Tec 2/Actividadad2S1001S/snake.py", line 57, in move
+    square(body.x, body.y, 9, pencolor('#32c18f') )     
+  File "/usr/local/lib/python3.9/site-packages/freegames/utils.py", line 67, in square
+    turtle.color(name)
+  File "<string>", line 8, in color
+  File "/usr/local/Cellar/python@3.9/3.9.5/Frameworks/Python.framework/Versions/3.9/lib/python3.9/turtle.py", line 2217, in color
+    pcolor = self._colorstr(pcolor)
+  File "/usr/local/Cellar/python@3.9/3.9.5/Frameworks/Python.framework/Versions/3.9/lib/python3.9/turtle.py", line 2697, in _colorstr
+    return self.screen._colorstr(args)
+  File "/usr/local/Cellar/python@3.9/3.9.5/Frameworks/Python.framework/Versions/3.9/lib/python3.9/turtle.py", line 1153, in _colorstr
+    if len(color) == 1:
+TypeError: object of type 'NoneType' has no len()
+luiszepeda@MacBook-Air-de-Luis Actividadad2S1001S % vim snake.py    
+luiszepeda@MacBook-Air-de-Luis Actividadad2S1001S % python3 snake.py
+Traceback (most recent call last):
+  File "/Users/luiszepeda/Desktop/Semestre 4/Semana Tec 2/Actividadad2S1001S/snake.py", line 70, in <module>
+    move()
+  File "/Users/luiszepeda/Desktop/Semestre 4/Semana Tec 2/Actividadad2S1001S/snake.py", line 57, in move
+    square(body.x, body.y, 9, colormode(255) )     
+  File "/usr/local/lib/python3.9/site-packages/freegames/utils.py", line 67, in square
+    turtle.color(name)
+  File "<string>", line 8, in color
+  File "/usr/local/Cellar/python@3.9/3.9.5/Frameworks/Python.framework/Versions/3.9/lib/python3.9/turtle.py", line 2217, in color
+    pcolor = self._colorstr(pcolor)
+  File "/usr/local/Cellar/python@3.9/3.9.5/Frameworks/Python.framework/Versions/3.9/lib/python3.9/turtle.py", line 2697, in _colorstr
+    return self.screen._colorstr(args)
+  File "/usr/local/Cellar/python@3.9/3.9.5/Frameworks/Python.framework/Versions/3.9/lib/python3.9/turtle.py", line 1153, in _colorstr
+    if len(color) == 1:
+TypeError: object of type 'NoneType' has no len()
+luiszepeda@MacBook-Air-de-Luis Actividadad2S1001S % vim snake.py    
+luiszepeda@MacBook-Air-de-Luis Actividadad2S1001S % python3 snake.py
+Traceback (most recent call last):
+  File "/Users/luiszepeda/Desktop/Semestre 4/Semana Tec 2/Actividadad2S1001S/snake.py", line 70, in <module>
+    move()
+  File "/Users/luiszepeda/Desktop/Semestre 4/Semana Tec 2/Actividadad2S1001S/snake.py", line 57, in move
+    square(body.x, body.y, 9, color('red') )     
+  File "/usr/local/lib/python3.9/site-packages/freegames/utils.py", line 67, in square
+    turtle.color(name)
+  File "<string>", line 8, in color
+  File "/usr/local/Cellar/python@3.9/3.9.5/Frameworks/Python.framework/Versions/3.9/lib/python3.9/turtle.py", line 2217, in color
+    pcolor = self._colorstr(pcolor)
+  File "/usr/local/Cellar/python@3.9/3.9.5/Frameworks/Python.framework/Versions/3.9/lib/python3.9/turtle.py", line 2697, in _colorstr
+    return self.screen._colorstr(args)
+  File "/usr/local/Cellar/python@3.9/3.9.5/Frameworks/Python.framework/Versions/3.9/lib/python3.9/turtle.py", line 1153, in _colorstr
+    if len(color) == 1:
+TypeError: object of type 'NoneType' has no len()
+luiszepeda@MacBook-Air-de-Luis Actividadad2S1001S % vim snake.py    
+luiszepeda@MacBook-Air-de-Luis Actividadad2S1001S % python3 snake.py
+Traceback (most recent call last):
+  File "/Users/luiszepeda/Desktop/Semestre 4/Semana Tec 2/Actividadad2S1001S/snake.py", line 70, in <module>
+    move()
+  File "/Users/luiszepeda/Desktop/Semestre 4/Semana Tec 2/Actividadad2S1001S/snake.py", line 57, in move
+    square(body.x, body.y, 9, color("red") )     
+  File "/usr/local/lib/python3.9/site-packages/freegames/utils.py", line 67, in square
+    turtle.color(name)
+  File "<string>", line 8, in color
+  File "/usr/local/Cellar/python@3.9/3.9.5/Frameworks/Python.framework/Versions/3.9/lib/python3.9/turtle.py", line 2217, in color
+    pcolor = self._colorstr(pcolor)
+  File "/usr/local/Cellar/python@3.9/3.9.5/Frameworks/Python.framework/Versions/3.9/lib/python3.9/turtle.py", line 2697, in _colorstr
+    return self.screen._colorstr(args)
+  File "/usr/local/Cellar/python@3.9/3.9.5/Frameworks/Python.framework/Versions/3.9/lib/python3.9/turtle.py", line 1153, in _colorstr
+    if len(color) == 1:
+TypeError: object of type 'NoneType' has no len()
+luiszepeda@MacBook-Air-de-Luis Actividadad2S1001S % vim snake.py    
+luiszepeda@MacBook-Air-de-Luis Actividadad2S1001S % python3 snake.py
+Traceback (most recent call last):
+  File "/Users/luiszepeda/Desktop/Semestre 4/Semana Tec 2/Actividadad2S1001S/snake.py", line 70, in <module>
+    move()
+  File "/Users/luiszepeda/Desktop/Semestre 4/Semana Tec 2/Actividadad2S1001S/snake.py", line 57, in move
+    square(body.x, body.y, 9, color("red", "green") )     
+  File "/usr/local/lib/python3.9/site-packages/freegames/utils.py", line 67, in square
+    turtle.color(name)
+  File "<string>", line 8, in color
+  File "/usr/local/Cellar/python@3.9/3.9.5/Frameworks/Python.framework/Versions/3.9/lib/python3.9/turtle.py", line 2217, in color
+    pcolor = self._colorstr(pcolor)
+  File "/usr/local/Cellar/python@3.9/3.9.5/Frameworks/Python.framework/Versions/3.9/lib/python3.9/turtle.py", line 2697, in _colorstr
+    return self.screen._colorstr(args)
+  File "/usr/local/Cellar/python@3.9/3.9.5/Frameworks/Python.framework/Versions/3.9/lib/python3.9/turtle.py", line 1153, in _colorstr
+    if len(color) == 1:
+TypeError: object of type 'NoneType' has no len()
+luiszepeda@MacBook-Air-de-Luis Actividadad2S1001S % vim snake.py    
+luiszepeda@MacBook-Air-de-Luis Actividadad2S1001S % python3 snake.py
+Traceback (most recent call last):
+  File "/Users/luiszepeda/Desktop/Semestre 4/Semana Tec 2/Actividadad2S1001S/snake.py", line 70, in <module>
+    move()
+  File "/Users/luiszepeda/Desktop/Semestre 4/Semana Tec 2/Actividadad2S1001S/snake.py", line 57, in move
+    square(body.x, body.y, 9, turtle.color("red", "green") )     
+NameError: name 'turtle' is not defined
+luiszepeda@MacBook-Air-de-Luis Actividadad2S1001S % vim snake.py    
+luiszepeda@MacBook-Air-de-Luis Actividadad2S1001S % python3 snake.py
+Traceback (most recent call last):
+  File "/Users/luiszepeda/Desktop/Semestre 4/Semana Tec 2/Actividadad2S1001S/snake.py", line 70, in <module>
+    move()
+  File "/Users/luiszepeda/Desktop/Semestre 4/Semana Tec 2/Actividadad2S1001S/snake.py", line 57, in move
+    square(body.x, body.y, 9, turtle.color() )     
+NameError: name 'turtle' is not defined
+luiszepeda@MacBook-Air-de-Luis Actividadad2S1001S % vim snake.py    
+luiszepeda@MacBook-Air-de-Luis Actividadad2S1001S % python3 snake.py
+Traceback (most recent call last):
+  File "/usr/local/Cellar/python@3.9/3.9.5/Frameworks/Python.framework/Versions/3.9/lib/python3.9/turtle.py", line 1161, in _colorstr
+    r, g, b = color
+ValueError: not enough values to unpack (expected 3, got 2)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/luiszepeda/Desktop/Semestre 4/Semana Tec 2/Actividadad2S1001S/snake.py", line 70, in <module>
+    move()
+  File "/Users/luiszepeda/Desktop/Semestre 4/Semana Tec 2/Actividadad2S1001S/snake.py", line 57, in move
+    square(body.x, body.y, 9, color() )     
+  File "/usr/local/lib/python3.9/site-packages/freegames/utils.py", line 67, in square
+    turtle.color(name)
+  File "<string>", line 8, in color
+  File "/usr/local/Cellar/python@3.9/3.9.5/Frameworks/Python.framework/Versions/3.9/lib/python3.9/turtle.py", line 2217, in color
+    pcolor = self._colorstr(pcolor)
+  File "/usr/local/Cellar/python@3.9/3.9.5/Frameworks/Python.framework/Versions/3.9/lib/python3.9/turtle.py", line 2697, in _colorstr
+    return self.screen._colorstr(args)
+  File "/usr/local/Cellar/python@3.9/3.9.5/Frameworks/Python.framework/Versions/3.9/lib/python3.9/turtle.py", line 1163, in _colorstr
+    raise TurtleGraphicsError("bad color arguments: %s" % str(color))
+turtle.TurtleGraphicsError: bad color arguments: ('black', 'black')
+luiszepeda@MacBook-Air-de-Luis Actividadad2S1001S % vim snake.py    
+luiszepeda@MacBook-Air-de-Luis Actividadad2S1001S % vim snake.py
+luiszepeda@MacBook-Air-de-Luis Actividadad2S1001S % vim snake.py
+luiszepeda@MacBook-Air-de-Luis Actividadad2S1001S % python3 snake.py
+Traceback (most recent call last):
+  File "/Users/luiszepeda/Desktop/Semestre 4/Semana Tec 2/Actividadad2S1001S/snake.py", line 70, in <module>
+    move()
+  File "/Users/luiszepeda/Desktop/Semestre 4/Semana Tec 2/Actividadad2S1001S/snake.py", line 57, in move
+    square(body.x, body.y, 9, rgbl )     
+NameError: name 'rgbl' is not defined
+luiszepeda@MacBook-Air-de-Luis Actividadad2S1001S % vim snake.py    
+luiszepeda@MacBook-Air-de-Luis Actividadad2S1001S % python3 snake.py
+Traceback (most recent call last):
+  File "/Users/luiszepeda/Desktop/Semestre 4/Semana Tec 2/Actividadad2S1001S/snake.py", line 70, in <module>
+    move()
+  File "/Users/luiszepeda/Desktop/Semestre 4/Semana Tec 2/Actividadad2S1001S/snake.py", line 57, in move
+    square(body.x, body.y, 9, 'rgbl' )     
+  File "/usr/local/lib/python3.9/site-packages/freegames/utils.py", line 67, in square
+    turtle.color(name)
+  File "<string>", line 8, in color
+  File "/usr/local/Cellar/python@3.9/3.9.5/Frameworks/Python.framework/Versions/3.9/lib/python3.9/turtle.py", line 2217, in color
+    pcolor = self._colorstr(pcolor)
+  File "/usr/local/Cellar/python@3.9/3.9.5/Frameworks/Python.framework/Versions/3.9/lib/python3.9/turtle.py", line 2697, in _colorstr
+    return self.screen._colorstr(args)
+  File "/usr/local/Cellar/python@3.9/3.9.5/Frameworks/Python.framework/Versions/3.9/lib/python3.9/turtle.py", line 1159, in _colorstr
+    raise TurtleGraphicsError("bad color string: %s" % str(color))
+turtle.TurtleGraphicsError: bad color string: rgbl
+luiszepeda@MacBook-Air-de-Luis Actividadad2S1001S % vim snake.py    
+luiszepeda@MacBook-Air-de-Luis Actividadad2S1001S % python3 snake.py
+Snake: 2
+luiszepeda@MacBook-Air-de-Luis Actividadad2S1001S % vim snake.py    
+luiszepeda@MacBook-Air-de-Luis Actividadad2S1001S % python3 snake.py
+Traceback (most recent call last):
+  File "/Users/luiszepeda/Desktop/Semestre 4/Semana Tec 2/Actividadad2S1001S/snake.py", line 70, in <module>
+    move()
+  File "/Users/luiszepeda/Desktop/Semestre 4/Semana Tec 2/Actividadad2S1001S/snake.py", line 57, in move
+    square(body.x, body.y, 9, pencolor("brown") )     
+  File "/usr/local/lib/python3.9/site-packages/freegames/utils.py", line 67, in square
+    turtle.color(name)
+  File "<string>", line 8, in color
+  File "/usr/local/Cellar/python@3.9/3.9.5/Frameworks/Python.framework/Versions/3.9/lib/python3.9/turtle.py", line 2217, in color
+    pcolor = self._colorstr(pcolor)
+  File "/usr/local/Cellar/python@3.9/3.9.5/Frameworks/Python.framework/Versions/3.9/lib/python3.9/turtle.py", line 2697, in _colorstr
+    return self.screen._colorstr(args)
+  File "/usr/local/Cellar/python@3.9/3.9.5/Frameworks/Python.framework/Versions/3.9/lib/python3.9/turtle.py", line 1153, in _colorstr
+    if len(color) == 1:
+TypeError: object of type 'NoneType' has no len()
+luiszepeda@MacBook-Air-de-Luis Actividadad2S1001S % vim snake.py    
+luiszepeda@MacBook-Air-de-Luis Actividadad2S1001S % python3 snake.py
+Traceback (most recent call last):
+  File "/Users/luiszepeda/Desktop/Semestre 4/Semana Tec 2/Actividadad2S1001S/snake.py", line 70, in <module>
+    move()
+  File "/Users/luiszepeda/Desktop/Semestre 4/Semana Tec 2/Actividadad2S1001S/snake.py", line 57, in move
+    square(body.x, body.y, 9, pencolor("brown") )     
+  File "/usr/local/lib/python3.9/site-packages/freegames/utils.py", line 67, in square
+    turtle.color(name)
+  File "<string>", line 8, in color
+  File "/usr/local/Cellar/python@3.9/3.9.5/Frameworks/Python.framework/Versions/3.9/lib/python3.9/turtle.py", line 2217, in color
+    pcolor = self._colorstr(pcolor)
+  File "/usr/local/Cellar/python@3.9/3.9.5/Frameworks/Python.framework/Versions/3.9/lib/python3.9/turtle.py", line 2697, in _colorstr
+    return self.screen._colorstr(args)
+  File "/usr/local/Cellar/python@3.9/3.9.5/Frameworks/Python.framework/Versions/3.9/lib/python3.9/turtle.py", line 1153, in _colorstr
+    if len(color) == 1:
+TypeError: object of type 'NoneType' has no len()
+luiszepeda@MacBook-Air-de-Luis Actividadad2S1001S % vim snake.py    
+luiszepeda@MacBook-Air-de-Luis Actividadad2S1001S % python3 snake.py
+Traceback (most recent call last):
+  File "/Users/luiszepeda/Desktop/Semestre 4/Semana Tec 2/Actividadad2S1001S/snake.py", line 70, in <module>
+    move()
+  File "/Users/luiszepeda/Desktop/Semestre 4/Semana Tec 2/Actividadad2S1001S/snake.py", line 57, in move
+    square(body.x, body.y, 9, pencolor("b") )     
+  File "<string>", line 8, in pencolor
+  File "/usr/local/Cellar/python@3.9/3.9.5/Frameworks/Python.framework/Versions/3.9/lib/python3.9/turtle.py", line 2253, in pencolor
+    color = self._colorstr(args)
+  File "/usr/local/Cellar/python@3.9/3.9.5/Frameworks/Python.framework/Versions/3.9/lib/python3.9/turtle.py", line 2697, in _colorstr
+    return self.screen._colorstr(args)
+  File "/usr/local/Cellar/python@3.9/3.9.5/Frameworks/Python.framework/Versions/3.9/lib/python3.9/turtle.py", line 1159, in _colorstr
+    raise TurtleGraphicsError("bad color string: %s" % str(color))
+turtle.TurtleGraphicsError: bad color string: b
+luiszepeda@MacBook-Air-de-Luis Actividadad2S1001S % vim snake.py    
+luiszepeda@MacBook-Air-de-Luis Actividadad2S1001S % python3 snake.py
+Traceback (most recent call last):
+  File "/Users/luiszepeda/Desktop/Semestre 4/Semana Tec 2/Actividadad2S1001S/snake.py", line 70, in <module>
+    move()
+  File "/Users/luiszepeda/Desktop/Semestre 4/Semana Tec 2/Actividadad2S1001S/snake.py", line 57, in move
+    square(body.x, body.y, 9, pencolor("blue") )     
+  File "/usr/local/lib/python3.9/site-packages/freegames/utils.py", line 67, in square
+    turtle.color(name)
+  File "<string>", line 8, in color
+  File "/usr/local/Cellar/python@3.9/3.9.5/Frameworks/Python.framework/Versions/3.9/lib/python3.9/turtle.py", line 2217, in color
+    pcolor = self._colorstr(pcolor)
+  File "/usr/local/Cellar/python@3.9/3.9.5/Frameworks/Python.framework/Versions/3.9/lib/python3.9/turtle.py", line 2697, in _colorstr
+    return self.screen._colorstr(args)
+  File "/usr/local/Cellar/python@3.9/3.9.5/Frameworks/Python.framework/Versions/3.9/lib/python3.9/turtle.py", line 1153, in _colorstr
+    if len(color) == 1:
+TypeError: object of type 'NoneType' has no len()
+luiszepeda@MacBook-Air-de-Luis Actividadad2S1001S % vim snake.py    
+luiszepeda@MacBook-Air-de-Luis Actividadad2S1001S % python3 snake.py
+Traceback (most recent call last):
+  File "/Users/luiszepeda/Desktop/Semestre 4/Semana Tec 2/Actividadad2S1001S/snake.py", line 70, in <module>
+    move()
+  File "/Users/luiszepeda/Desktop/Semestre 4/Semana Tec 2/Actividadad2S1001S/snake.py", line 57, in move
+    square(body.x, body.y, 9, pencolor(("blue")) )     
+  File "/usr/local/lib/python3.9/site-packages/freegames/utils.py", line 67, in square
+    turtle.color(name)
+  File "<string>", line 8, in color
+  File "/usr/local/Cellar/python@3.9/3.9.5/Frameworks/Python.framework/Versions/3.9/lib/python3.9/turtle.py", line 2217, in color
+    pcolor = self._colorstr(pcolor)
+  File "/usr/local/Cellar/python@3.9/3.9.5/Frameworks/Python.framework/Versions/3.9/lib/python3.9/turtle.py", line 2697, in _colorstr
+    return self.screen._colorstr(args)
+  File "/usr/local/Cellar/python@3.9/3.9.5/Frameworks/Python.framework/Versions/3.9/lib/python3.9/turtle.py", line 1153, in _colorstr
+    if len(color) == 1:
+TypeError: object of type 'NoneType' has no len()
+luiszepeda@MacBook-Air-de-Luis Actividadad2S1001S % vim snake.py    
+luiszepeda@MacBook-Air-de-Luis Actividadad2S1001S % python3 snake.py
+Traceback (most recent call last):
+  File "/Users/luiszepeda/Desktop/Semestre 4/Semana Tec 2/Actividadad2S1001S/snake.py", line 70, in <module>
+    move()
+  File "/Users/luiszepeda/Desktop/Semestre 4/Semana Tec 2/Actividadad2S1001S/snake.py", line 57, in move
+    square(body.x, body.y, 9, pencolor((r, g, b)) )     
+NameError: name 'r' is not defined
+luiszepeda@MacBook-Air-de-Luis Actividadad2S1001S % vim snake.py    
+luiszepeda@MacBook-Air-de-Luis Actividadad2S1001S % python3 snake.py
+zsh: bus error  python3 snake.py
+luiszepeda@MacBook-Air-de-Luis Actividadad2S1001S % vim snake.py    
+luiszepeda@MacBook-Air-de-Luis Actividadad2S1001S % vim snake.py
+luiszepeda@MacBook-Air-de-Luis Actividadad2S1001S % python3 snake.py
+luiszepeda@MacBook-Air-de-Luis Actividadad2S1001S % vim snake.py    
+luiszepeda@MacBook-Air-de-Luis Actividadad2S1001S % python3 snake.py
+luiszepeda@MacBook-Air-de-Luis Actividadad2S1001S % python3 snake.py
+luiszepeda@MacBook-Air-de-Luis Actividadad2S1001S % vim snake.py    
+luiszepeda@MacBook-Air-de-Luis Actividadad2S1001S % python3 snake.py
+Snake: 2
+Snake: 3
+Snake: 4
+luiszepeda@MacBook-Air-de-Luis Actividadad2S1001S % vim snake.py    
+luiszepeda@MacBook-Air-de-Luis Actividadad2S1001S % python3 snake.py
+Traceback (most recent call last):
+  File "/usr/local/Cellar/python@3.9/3.9.5/Frameworks/Python.framework/Versions/3.9/lib/python3.9/turtle.py", line 1161, in _colorstr
+    r, g, b = color
+TypeError: cannot unpack non-iterable int object
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/luiszepeda/Desktop/Semestre 4/Semana Tec 2/Actividadad2S1001S/snake.py", line 72, in <module>
+    move()
+  File "/Users/luiszepeda/Desktop/Semestre 4/Semana Tec 2/Actividadad2S1001S/snake.py", line 59, in move
+    square(body.x, body.y, 9, pencolor(1) )     
+  File "<string>", line 8, in pencolor
+  File "/usr/local/Cellar/python@3.9/3.9.5/Frameworks/Python.framework/Versions/3.9/lib/python3.9/turtle.py", line 2253, in pencolor
+    color = self._colorstr(args)
+  File "/usr/local/Cellar/python@3.9/3.9.5/Frameworks/Python.framework/Versions/3.9/lib/python3.9/turtle.py", line 2697, in _colorstr
+    return self.screen._colorstr(args)
+  File "/usr/local/Cellar/python@3.9/3.9.5/Frameworks/Python.framework/Versions/3.9/lib/python3.9/turtle.py", line 1163, in _colorstr
+    raise TurtleGraphicsError("bad color arguments: %s" % str(color))
+turtle.TurtleGraphicsError: bad color arguments: 1
+luiszepeda@MacBook-Air-de-Luis Actividadad2S1001S % vim snake.py    
+luiszepeda@MacBook-Air-de-Luis Actividadad2S1001S % python3 snake.py
+Traceback (most recent call last):
+  File "/usr/local/Cellar/python@3.9/3.9.5/Frameworks/Python.framework/Versions/3.9/lib/python3.9/turtle.py", line 1161, in _colorstr
+    r, g, b = color
+TypeError: cannot unpack non-iterable float object
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/luiszepeda/Desktop/Semestre 4/Semana Tec 2/Actividadad2S1001S/snake.py", line 72, in <module>
+    move()
+  File "/Users/luiszepeda/Desktop/Semestre 4/Semana Tec 2/Actividadad2S1001S/snake.py", line 59, in move
+    square(body.x, body.y, 9, pencolor(0.2) )     
+  File "<string>", line 8, in pencolor
+  File "/usr/local/Cellar/python@3.9/3.9.5/Frameworks/Python.framework/Versions/3.9/lib/python3.9/turtle.py", line 2253, in pencolor
+    color = self._colorstr(args)
+  File "/usr/local/Cellar/python@3.9/3.9.5/Frameworks/Python.framework/Versions/3.9/lib/python3.9/turtle.py", line 2697, in _colorstr
+    return self.screen._colorstr(args)
+  File "/usr/local/Cellar/python@3.9/3.9.5/Frameworks/Python.framework/Versions/3.9/lib/python3.9/turtle.py", line 1163, in _colorstr
+    raise TurtleGraphicsError("bad color arguments: %s" % str(color))
+turtle.TurtleGraphicsError: bad color arguments: 0.2
+luiszepeda@MacBook-Air-de-Luis Actividadad2S1001S % vim snake.py    
+luiszepeda@MacBook-Air-de-Luis Actividadad2S1001S % python3 snake.py
+Traceback (most recent call last):
+  File "/Users/luiszepeda/Desktop/Semestre 4/Semana Tec 2/Actividadad2S1001S/snake.py", line 72, in <module>
+    move()
+  File "/Users/luiszepeda/Desktop/Semestre 4/Semana Tec 2/Actividadad2S1001S/snake.py", line 59, in move
+    square(body.x, body.y, 9, pencolor(tup) )     
+  File "<string>", line 8, in pencolor
+  File "/usr/local/Cellar/python@3.9/3.9.5/Frameworks/Python.framework/Versions/3.9/lib/python3.9/turtle.py", line 2253, in pencolor
+    color = self._colorstr(args)
+  File "/usr/local/Cellar/python@3.9/3.9.5/Frameworks/Python.framework/Versions/3.9/lib/python3.9/turtle.py", line 2697, in _colorstr
+    return self.screen._colorstr(args)
+  File "/usr/local/Cellar/python@3.9/3.9.5/Frameworks/Python.framework/Versions/3.9/lib/python3.9/turtle.py", line 1168, in _colorstr
+    return "#%02x%02x%02x" % (r, g, b)
+TypeError: %x format: an integer is required, not float
+luiszepeda@MacBook-Air-de-Luis Actividadad2S1001S % vim snake.py    
+luiszepeda@MacBook-Air-de-Luis Actividadad2S1001S % python3 snake.py
+Traceback (most recent call last):
+  File "/usr/local/Cellar/python@3.9/3.9.5/Frameworks/Python.framework/Versions/3.9/lib/python3.9/turtle.py", line 1161, in _colorstr
+    r, g, b = color
+ValueError: not enough values to unpack (expected 3, got 2)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/luiszepeda/Desktop/Semestre 4/Semana Tec 2/Actividadad2S1001S/snake.py", line 73, in <module>
+    move()
+  File "/Users/luiszepeda/Desktop/Semestre 4/Semana Tec 2/Actividadad2S1001S/snake.py", line 60, in move
+    square(body.x, body.y, 9, color() )     
+  File "/usr/local/lib/python3.9/site-packages/freegames/utils.py", line 67, in square
+    turtle.color(name)
+  File "<string>", line 8, in color
+  File "/usr/local/Cellar/python@3.9/3.9.5/Frameworks/Python.framework/Versions/3.9/lib/python3.9/turtle.py", line 2217, in color
+    pcolor = self._colorstr(pcolor)
+  File "/usr/local/Cellar/python@3.9/3.9.5/Frameworks/Python.framework/Versions/3.9/lib/python3.9/turtle.py", line 2697, in _colorstr
+    return self.screen._colorstr(args)
+  File "/usr/local/Cellar/python@3.9/3.9.5/Frameworks/Python.framework/Versions/3.9/lib/python3.9/turtle.py", line 1163, in _colorstr
+    raise TurtleGraphicsError("bad color arguments: %s" % str(color))
+turtle.TurtleGraphicsError: bad color arguments: ('brown', 'green')
+luiszepeda@MacBook-Air-de-Luis Actividadad2S1001S % vim snake.py    
+luiszepeda@MacBook-Air-de-Luis Actividadad2S1001S % python3 snake.py
+Traceback (most recent call last):
+  File "/usr/local/Cellar/python@3.9/3.9.5/Frameworks/Python.framework/Versions/3.9/lib/python3.9/turtle.py", line 1161, in _colorstr
+    r, g, b = color
+ValueError: not enough values to unpack (expected 3, got 2)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/luiszepeda/Desktop/Semestre 4/Semana Tec 2/Actividadad2S1001S/snake.py", line 73, in <module>
+    move()
+  File "/Users/luiszepeda/Desktop/Semestre 4/Semana Tec 2/Actividadad2S1001S/snake.py", line 60, in move
+    square(body.x, body.y, 9, color() )     
+  File "/usr/local/lib/python3.9/site-packages/freegames/utils.py", line 67, in square
+    turtle.color(name)
+  File "<string>", line 8, in color
+  File "/usr/local/Cellar/python@3.9/3.9.5/Frameworks/Python.framework/Versions/3.9/lib/python3.9/turtle.py", line 2217, in color
+    pcolor = self._colorstr(pcolor)
+  File "/usr/local/Cellar/python@3.9/3.9.5/Frameworks/Python.framework/Versions/3.9/lib/python3.9/turtle.py", line 2697, in _colorstr
+    return self.screen._colorstr(args)
+  File "/usr/local/Cellar/python@3.9/3.9.5/Frameworks/Python.framework/Versions/3.9/lib/python3.9/turtle.py", line 1163, in _colorstr
+    raise TurtleGraphicsError("bad color arguments: %s" % str(color))
+turtle.TurtleGraphicsError: bad color arguments: ('brown', (160.0, 200.0, 240.0))
+luiszepeda@MacBook-Air-de-Luis Actividadad2S1001S % vim snake.py    
+luiszepeda@MacBook-Air-de-Luis Actividadad2S1001S % python3 snake.py
+luiszepeda@MacBook-Air-de-Luis Actividadad2S1001S % vim snake.py    
+luiszepeda@MacBook-Air-de-Luis Actividadad2S1001S % python3 snake.py
+Traceback (most recent call last):
+  File "/Users/luiszepeda/Desktop/Semestre 4/Semana Tec 2/Actividadad2S1001S/snake.py", line 20, in <module>
+    turtle.colormode(255)
+NameError: name 'turtle' is not defined
+luiszepeda@MacBook-Air-de-Luis Actividadad2S1001S % vim snake.py    
+luiszepeda@MacBook-Air-de-Luis Actividadad2S1001S % python3 snake.py
+Traceback (most recent call last):
+  File "/Users/luiszepeda/Desktop/Semestre 4/Semana Tec 2/Actividadad2S1001S/snake.py", line 73, in <module>
+    move()
+  File "/Users/luiszepeda/Desktop/Semestre 4/Semana Tec 2/Actividadad2S1001S/snake.py", line 60, in move
+    square(body.x, body.y, 9, pencolor("red") )     
+  File "/usr/local/lib/python3.9/site-packages/freegames/utils.py", line 67, in square
+    turtle.color(name)
+  File "<string>", line 8, in color
+  File "/usr/local/Cellar/python@3.9/3.9.5/Frameworks/Python.framework/Versions/3.9/lib/python3.9/turtle.py", line 2217, in color
+    pcolor = self._colorstr(pcolor)
+  File "/usr/local/Cellar/python@3.9/3.9.5/Frameworks/Python.framework/Versions/3.9/lib/python3.9/turtle.py", line 2697, in _colorstr
+    return self.screen._colorstr(args)
+  File "/usr/local/Cellar/python@3.9/3.9.5/Frameworks/Python.framework/Versions/3.9/lib/python3.9/turtle.py", line 1153, in _colorstr
+    if len(color) == 1:
+TypeError: object of type 'NoneType' has no len()
+luiszepeda@MacBook-Air-de-Luis Actividadad2S1001S % vim snake.py    
+luiszepeda@MacBook-Air-de-Luis Actividadad2S1001S % python3 snake.py
+Traceback (most recent call last):
+  File "/Users/luiszepeda/Desktop/Semestre 4/Semana Tec 2/Actividadad2S1001S/snake.py", line 73, in <module>
+    move()
+  File "/Users/luiszepeda/Desktop/Semestre 4/Semana Tec 2/Actividadad2S1001S/snake.py", line 60, in move
+    square(body.x, body.y, 9, pencolor(255,0,0) )     
+  File "/usr/local/lib/python3.9/site-packages/freegames/utils.py", line 67, in square
+    turtle.color(name)
+  File "<string>", line 8, in color
+  File "/usr/local/Cellar/python@3.9/3.9.5/Frameworks/Python.framework/Versions/3.9/lib/python3.9/turtle.py", line 2217, in color
+    pcolor = self._colorstr(pcolor)
+  File "/usr/local/Cellar/python@3.9/3.9.5/Frameworks/Python.framework/Versions/3.9/lib/python3.9/turtle.py", line 2697, in _colorstr
+    return self.screen._colorstr(args)
+  File "/usr/local/Cellar/python@3.9/3.9.5/Frameworks/Python.framework/Versions/3.9/lib/python3.9/turtle.py", line 1153, in _colorstr
+    if len(color) == 1:
+TypeError: object of type 'NoneType' has no len()
+luiszepeda@MacBook-Air-de-Luis Actividadad2S1001S % vim snake.py    
+luiszepeda@MacBook-Air-de-Luis Actividadad2S1001S % python3 snake.py
+Traceback (most recent call last):
+  File "/Users/luiszepeda/Desktop/Semestre 4/Semana Tec 2/Actividadad2S1001S/snake.py", line 73, in <module>
+    move()
+  File "/Users/luiszepeda/Desktop/Semestre 4/Semana Tec 2/Actividadad2S1001S/snake.py", line 60, in move
+    square(body.x, body.y, 9, pencolor(1,0,0) )     
+  File "/usr/local/lib/python3.9/site-packages/freegames/utils.py", line 67, in square
+    turtle.color(name)
+  File "<string>", line 8, in color
+  File "/usr/local/Cellar/python@3.9/3.9.5/Frameworks/Python.framework/Versions/3.9/lib/python3.9/turtle.py", line 2217, in color
+    pcolor = self._colorstr(pcolor)
+  File "/usr/local/Cellar/python@3.9/3.9.5/Frameworks/Python.framework/Versions/3.9/lib/python3.9/turtle.py", line 2697, in _colorstr
+    return self.screen._colorstr(args)
+  File "/usr/local/Cellar/python@3.9/3.9.5/Frameworks/Python.framework/Versions/3.9/lib/python3.9/turtle.py", line 1153, in _colorstr
+    if len(color) == 1:
+TypeError: object of type 'NoneType' has no len()
+luiszepeda@MacBook-Air-de-Luis Actividadad2S1001S % vim snake.py    
+luiszepeda@MacBook-Air-de-Luis Actividadad2S1001S % python3 snake.py
+Traceback (most recent call last):
+  File "/Users/luiszepeda/Desktop/Semestre 4/Semana Tec 2/Actividadad2S1001S/snake.py", line 73, in <module>
+    move()
+  File "/Users/luiszepeda/Desktop/Semestre 4/Semana Tec 2/Actividadad2S1001S/snake.py", line 60, in move
+    square(body.x, body.y, 9, color(1,0,0) )     
+  File "/usr/local/lib/python3.9/site-packages/freegames/utils.py", line 67, in square
+    turtle.color(name)
+  File "<string>", line 8, in color
+  File "/usr/local/Cellar/python@3.9/3.9.5/Frameworks/Python.framework/Versions/3.9/lib/python3.9/turtle.py", line 2217, in color
+    pcolor = self._colorstr(pcolor)
+  File "/usr/local/Cellar/python@3.9/3.9.5/Frameworks/Python.framework/Versions/3.9/lib/python3.9/turtle.py", line 2697, in _colorstr
+    return self.screen._colorstr(args)
+  File "/usr/local/Cellar/python@3.9/3.9.5/Frameworks/Python.framework/Versions/3.9/lib/python3.9/turtle.py", line 1153, in _colorstr
+    if len(color) == 1:
+TypeError: object of type 'NoneType' has no len()
+luiszepeda@MacBook-Air-de-Luis Actividadad2S1001S % vim snake.py    
+luiszepeda@MacBook-Air-de-Luis Actividadad2S1001S % python3 snake.py
+Traceback (most recent call last):
+  File "/Users/luiszepeda/Desktop/Semestre 4/Semana Tec 2/Actividadad2S1001S/snake.py", line 73, in <module>
+    move()
+  File "/Users/luiszepeda/Desktop/Semestre 4/Semana Tec 2/Actividadad2S1001S/snake.py", line 60, in move
+    square(body.x, body.y, 9, pencolor("red") )     
+  File "/usr/local/lib/python3.9/site-packages/freegames/utils.py", line 67, in square
+    turtle.color(name)
+  File "<string>", line 8, in color
+  File "/usr/local/Cellar/python@3.9/3.9.5/Frameworks/Python.framework/Versions/3.9/lib/python3.9/turtle.py", line 2217, in color
+    pcolor = self._colorstr(pcolor)
+  File "/usr/local/Cellar/python@3.9/3.9.5/Frameworks/Python.framework/Versions/3.9/lib/python3.9/turtle.py", line 2697, in _colorstr
+    return self.screen._colorstr(args)
+  File "/usr/local/Cellar/python@3.9/3.9.5/Frameworks/Python.framework/Versions/3.9/lib/python3.9/turtle.py", line 1153, in _colorstr
+    if len(color) == 1:
+TypeError: object of type 'NoneType' has no len()
+luiszepeda@MacBook-Air-de-Luis Actividadad2S1001S % vim snake.py    
+luiszepeda@MacBook-Air-de-Luis Actividadad2S1001S % vim snake.py
+luiszepeda@MacBook-Air-de-Luis Actividadad2S1001S % python3 snake.py
+Traceback (most recent call last):
+  File "/Users/luiszepeda/Desktop/Semestre 4/Semana Tec 2/Actividadad2S1001S/snake.py", line 13, in <module>
+    from random import randrange, shuffle, randit
+ImportError: cannot import name 'randit' from 'random' (/usr/local/Cellar/python@3.9/3.9.5/Frameworks/Python.framework/Versions/3.9/lib/python3.9/random.py)
+luiszepeda@MacBook-Air-de-Luis Actividadad2S1001S % vim snake.py    
+luiszepeda@MacBook-Air-de-Luis Actividadad2S1001S % python3 snake.py
+luiszepeda@MacBook-Air-de-Luis Actividadad2S1001S % vim snake.py    
+luiszepeda@MacBook-Air-de-Luis Actividadad2S1001S % python3 snake.py
+  File "/Users/luiszepeda/Desktop/Semestre 4/Semana Tec 2/Actividadad2S1001S/snake.py", line 59
+    if gg == 1
+              ^
+SyntaxError: invalid syntax
+luiszepeda@MacBook-Air-de-Luis Actividadad2S1001S % vim snake.py    
+luiszepeda@MacBook-Air-de-Luis Actividadad2S1001S % python3 snake.py
+  File "/Users/luiszepeda/Desktop/Semestre 4/Semana Tec 2/Actividadad2S1001S/snake.py", line 59
+    if gg = 1
+          ^
+SyntaxError: invalid syntax
+luiszepeda@MacBook-Air-de-Luis Actividadad2S1001S % vim snake.py    
+luiszepeda@MacBook-Air-de-Luis Actividadad2S1001S % vim snake.py    
+luiszepeda@MacBook-Air-de-Luis Actividadad2S1001S % vim snake.py
+luiszepeda@MacBook-Air-de-Luis Actividadad2S1001S % python3 snake.py
+  File "/Users/luiszepeda/Desktop/Semestre 4/Semana Tec 2/Actividadad2S1001S/snake.py", line 12
+    from turtle import 
+                       ^
+SyntaxError: invalid syntax
+luiszepeda@MacBook-Air-de-Luis Actividadad2S1001S % vim snake.py    
+luiszepeda@MacBook-Air-de-Luis Actividadad2S1001S % python3 snake.py
+  File "/Users/luiszepeda/Desktop/Semestre 4/Semana Tec 2/Actividadad2S1001S/snake.py", line 12
+    from turtle import 
+                       ^
+SyntaxError: invalid syntax
+luiszepeda@MacBook-Air-de-Luis Actividadad2S1001S % vim snake.py    
+luiszepeda@MacBook-Air-de-Luis Actividadad2S1001S % python3 snake.py
+Traceback (most recent call last):
+  File "/Users/luiszepeda/Desktop/Semestre 4/Semana Tec 2/Actividadad2S1001S/snake.py", line 75, in <module>
+    move()
+  File "/Users/luiszepeda/Desktop/Semestre 4/Semana Tec 2/Actividadad2S1001S/snake.py", line 56, in move
+    if gg == 1:
+NameError: name 'gg' is not defined
+luiszepeda@MacBook-Air-de-Luis Actividadad2S1001S % vim snake.py    
+luiszepeda@MacBook-Air-de-Luis Actividadad2S1001S % python3 snake.py
+Traceback (most recent call last):
+  File "/Users/luiszepeda/Desktop/Semestre 4/Semana Tec 2/Actividadad2S1001S/snake.py", line 20, in <module>
+    gg= randint(rgbl)
+TypeError: randint() missing 1 required positional argument: 'b'
+luiszepeda@MacBook-Air-de-Luis Actividadad2S1001S % vim snake.py    
+luiszepeda@MacBook-Air-de-Luis Actividadad2S1001S % python3 snake.py
+Traceback (most recent call last):
+  File "/Users/luiszepeda/Desktop/Semestre 4/Semana Tec 2/Actividadad2S1001S/snake.py", line 20, in <module>
+    gg= randint(rgbl)
+TypeError: randint() missing 1 required positional argument: 'b'
+luiszepeda@MacBook-Air-de-Luis Actividadad2S1001S % vim snake.py    
+luiszepeda@MacBook-Air-de-Luis Actividadad2S1001S % python3 snake.py
+luiszepeda@MacBook-Air-de-Luis Actividadad2S1001S % vim snake.py    
+luiszepeda@MacBook-Air-de-Luis Actividadad2S1001S % python3 snake.py
+luiszepeda@MacBook-Air-de-Luis Actividadad2S1001S % python3 snake.py
+luiszepeda@MacBook-Air-de-Luis Actividadad2S1001S % python3 snake.py
+luiszepeda@MacBook-Air-de-Luis Actividadad2S1001S % vim snake.py    
+luiszepeda@MacBook-Air-de-Luis Actividadad2S1001S % python3 snake.py
+luiszepeda@MacBook-Air-de-Luis Actividadad2S1001S % python3 snake.py
+luiszepeda@MacBook-Air-de-Luis Actividadad2S1001S % python3 snake.py
+luiszepeda@MacBook-Air-de-Luis Actividadad2S1001S % python3 snake.py
+luiszepeda@MacBook-Air-de-Luis Actividadad2S1001S % python3 snake.py
+luiszepeda@MacBook-Air-de-Luis Actividadad2S1001S % python3 snake.py
+luiszepeda@MacBook-Air-de-Luis Actividadad2S1001S % python3 snake.py
+luiszepeda@MacBook-Air-de-Luis Actividadad2S1001S % python3 snake.py
+luiszepeda@MacBook-Air-de-Luis Actividadad2S1001S % python3 snake.py
+luiszepeda@MacBook-Air-de-Luis Actividadad2S1001S % vim snake.py    
+luiszepeda@MacBook-Air-de-Luis Actividadad2S1001S % python3 snake.py
+luiszepeda@MacBook-Air-de-Luis Actividadad2S1001S % python3 snake.py
+luiszepeda@MacBook-Air-de-Luis Actividadad2S1001S % python3 snake.py
+luiszepeda@MacBook-Air-de-Luis Actividadad2S1001S % python3 snake.py
+luiszepeda@MacBook-Air-de-Luis Actividadad2S1001S % python3 snake.py
+zsh: bus error  python3 snake.py
+luiszepeda@MacBook-Air-de-Luis Actividadad2S1001S % python3 snake.py
+Snake: 2
+Snake: 3
+Snake: 4
+Snake: 5
+Snake: 6
+Snake: 7
+Snake: 8
+Snake: 9
+luiszepeda@MacBook-Air-de-Luis Actividadad2S1001S % vim snake.py    
+luiszepeda@MacBook-Air-de-Luis Actividadad2S1001S % python3 snake.py
+çSnake: 2
+Snake: 3
+luiszepeda@MacBook-Air-de-Luis Actividadad2S1001S % python3 snake.py
+Snake: 2
+luiszepeda@MacBook-Air-de-Luis Actividadad2S1001S % python3 snake.py
+Snake: 2
+luiszepeda@MacBook-Air-de-Luis Actividadad2S1001S % git status
+En la rama luiszepedagg
+Archivos sin seguimiento:
+  (usa "git add <archivo>..." para incluirlo a lo que se será confirmado)
+	snake.py
+
+no hay nada agregado al commit pero hay archivos sin seguimiento presentes (usa "git add" para hacerles seguimiento)
+luiszepeda@MacBook-Air-de-Luis Actividadad2S1001S % git checkout main
+Cambiado a rama 'main'
+Tu rama está actualizada con 'origin/main'.
+luiszepeda@MacBook-Air-de-Luis Actividadad2S1001S % gir merge luiszepedagg
+zsh: command not found: gir
+luiszepeda@MacBook-Air-de-Luis Actividadad2S1001S % git merge luiszepedagg
+Ya está actualizado.
+luiszepeda@MacBook-Air-de-Luis Actividadad2S1001S % git push luiszepedagg
+fatal: 'luiszepedagg' does not appear to be a git repository
+fatal: No se pudo leer del repositorio remoto.
+
+Por favor asegúrate que tienes los permisos de acceso correctos
+y que el repositorio existe.
+luiszepeda@MacBook-Air-de-Luis Actividadad2S1001S % git checkout luiszepeda
+error: ruta especificada 'luiszepeda' no concordó con ningún archivo(s) conocido por git
+luiszepeda@MacBook-Air-de-Luis Actividadad2S1001S % git checkout luiszepedagg
+Cambiado a rama 'luiszepedagg'
+luiszepeda@MacBook-Air-de-Luis Actividadad2S1001S % git init
+Reinicializado el repositorio Git existente en /Users/luiszepeda/Desktop/Semestre 4/Semana Tec 2/Actividadad2S1001S/.git/
+luiszepeda@MacBook-Air-de-Luis Actividadad2S1001S % git status
+En la rama luiszepedagg
+Archivos sin seguimiento:
+  (usa "git add <archivo>..." para incluirlo a lo que se será confirmado)
+	snake.py
+
+no hay nada agregado al commit pero hay archivos sin seguimiento presentes (usa "git add" para hacerles seguimiento)
+luiszepeda@MacBook-Air-de-Luis Actividadad2S1001S % git add snake.py
+luiszepeda@MacBook-Air-de-Luis Actividadad2S1001S % git status
+En la rama luiszepedagg
+Cambios a ser confirmados:
+  (usa "git restore --staged <archivo>..." para sacar del área de stage)
+	nuevo archivo:  snake.py
+
+luiszepeda@MacBook-Air-de-Luis Actividadad2S1001S % git checkout main        
+A	snake.py
+Cambiado a rama 'main'
+Tu rama está actualizada con 'origin/main'.
+luiszepeda@MacBook-Air-de-Luis Actividadad2S1001S % git push -u origin luiszepedagg
+Total 0 (delta 0), reusado 0 (delta 0), pack-reusado 0
+remote: 
+remote: Create a pull request for 'luiszepedagg' on GitHub by visiting:
+remote:      https://github.com/luiszepeda1/Actividadad2S1001S/pull/new/luiszepedagg
+remote: 
+To https://github.com/luiszepeda1/Actividadad2S1001S
+ * [new branch]      luiszepedagg -> luiszepedagg
+Rama 'luiszepedagg' configurada para hacer seguimiento a la rama remota 'luiszepedagg' de 'origin'.
+luiszepeda@MacBook-Air-de-Luis Actividadad2S1001S % git checkout luiszepedagg      
+A	snake.py
+Cambiado a rama 'luiszepedagg'
+Tu rama está actualizada con 'origin/luiszepedagg'.
+luiszepeda@MacBook-Air-de-Luis Actividadad2S1001S % git status
+En la rama luiszepedagg
+Tu rama está actualizada con 'origin/luiszepedagg'.
+
+Cambios a ser confirmados:
+  (usa "git restore --staged <archivo>..." para sacar del área de stage)
+	nuevo archivo:  snake.py
+
+luiszepeda@MacBook-Air-de-Luis Actividadad2S1001S % fit add snake.py
+zsh: command not found: fit
+luiszepeda@MacBook-Air-de-Luis Actividadad2S1001S % git add snake.py
+luiszepeda@MacBook-Air-de-Luis Actividadad2S1001S % git checkout main
+A	snake.py
+Cambiado a rama 'main'
+Tu rama está actualizada con 'origin/main'.
+luiszepeda@MacBook-Air-de-Luis Actividadad2S1001S % git add snake.py
+luiszepeda@MacBook-Air-de-Luis Actividadad2S1001S % git status
+En la rama main
+Tu rama está actualizada con 'origin/main'.
+
+Cambios a ser confirmados:
+  (usa "git restore --staged <archivo>..." para sacar del área de stage)
+	nuevo archivo:  snake.py
+
+luiszepeda@MacBook-Air-de-Luis Actividadad2S1001S % git push -u origin luiszepeda
+error: src refsoec luiszepeda: no concuerda con ninguno
+error: falló el push de algunas referencias a 'https://github.com/luiszepeda1/Actividadad2S1001S'
+luiszepeda@MacBook-Air-de-Luis Actividadad2S1001S % git push -u origin luiszepedagg
+Rama 'luiszepedagg' configurada para hacer seguimiento a la rama remota 'luiszepedagg' de 'origin'.
+Everything up-to-date
+luiszepeda@MacBook-Air-de-Luis Actividadad2S1001S % git checkout luiszepedagg      
+A	snake.py
+Cambiado a rama 'luiszepedagg'
+Tu rama está actualizada con 'origin/luiszepedagg'.
+luiszepeda@MacBook-Air-de-Luis Actividadad2S1001S % git push -u origin main        
+Rama 'main' configurada para hacer seguimiento a la rama remota 'main' de 'origin'.
+Everything up-to-date
+luiszepeda@MacBook-Air-de-Luis Actividadad2S1001S % git status             
+En la rama luiszepedagg
+Tu rama está actualizada con 'origin/luiszepedagg'.
+
+Cambios a ser confirmados:
+  (usa "git restore --staged <archivo>..." para sacar del área de stage)
+	nuevo archivo:  snake.py
+
+luiszepeda@MacBook-Air-de-Luis Actividadad2S1001S % git add snake.py
+luiszepeda@MacBook-Air-de-Luis Actividadad2S1001S % git commit -m snake.py
+[luiszepedagg dc3c72c] snake.py
+ 1 file changed, 87 insertions(+)
+ create mode 100644 snake.py
+luiszepeda@MacBook-Air-de-Luis Actividadad2S1001S % git push origin luiszepedagg
+Enumerando objetos: 4, listo.
+Contando objetos: 100% (4/4), listo.
+Compresión delta usando hasta 4 hilos
+Comprimiendo objetos: 100% (3/3), listo.
+Escribiendo objetos: 100% (3/3), 1.01 KiB | 1.01 MiB/s, listo.
+Total 3 (delta 0), reusado 0 (delta 0), pack-reusado 0
+To https://github.com/luiszepeda1/Actividadad2S1001S
+   3690152..dc3c72c  luiszepedagg -> luiszepedagg
+luiszepeda@MacBook-Air-de-Luis Actividadad2S1001S % git log
+commit dc3c72ca50b2683e674d22bded5ecfc150994d26 (HEAD -> luiszepedagg, origin/luiszepedagg)
+Author: luiszepeda1 <A01424057@itesm.mx>
+Date:   Fri May 7 11:32:36 2021 -0500
+
+    snake.py
+
+commit 369015209724749cefb776b40f73ab2efb8a2431 (origin/main, origin/HEAD, main)
+Author: luiszepeda1 <83771890+luiszepeda1@users.noreply.github.com>
+Date:   Thu May 6 12:52:56 2021 -0500
+
+    Initial commit
+luiszepeda@MacBook-Air-de-Luis Actividadad2S1001S % 
